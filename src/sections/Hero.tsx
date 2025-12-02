@@ -11,10 +11,10 @@ const Hero = () => {
         <input
           type="text"
           placeholder="https://www.youtube.com/playlist?{continua} || https://www.youtube.com/watch?{continua}"
-          className="w-full px-4 py-2 border-2 focus:outline-none focus:border-blue-500 focus:ring placeholder:"
+          className="w-full px-4 py-4 border-[1.5px] border-green-black bg-green-one focus:outline-none focus:border-green-black focus:ring-2 placeholder:"
         />
         <Options />
-        <button className="w-full border-2 py-4 mt-2">
+        <button className="w-full font-medium border-[1.5px] border-green-black bg-green-one py-4 mt-4">
           Descargar
         </button>
       </section>
